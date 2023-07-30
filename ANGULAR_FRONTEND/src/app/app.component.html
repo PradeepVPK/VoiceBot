@@ -1,0 +1,20 @@
+<div class="container mt-5">
+  <div class="row ">
+    <div class="col-md-6 offset-3 ">
+      <h2 class="text-center">GPT Voice Assistant</h2>
+      <div class=" d-grid gap-2 d-md-block offset-2">
+        
+          <button class="btn btn-primary" (click)="startRecording()">
+            Start Recording
+          </button>
+          <button class="btn btn-danger" (click)="stopRecording()">
+            Stop Recording
+          </button>
+        
+      </div>
+      <div class="mt-4">
+        <p class="bg-light p-3">{{ recognizedText }}</p>
+      </div>
+    </div>
+  </div>
+</div>
